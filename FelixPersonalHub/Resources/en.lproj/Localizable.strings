@@ -1,0 +1,110 @@
+/* English Localization */
+
+/* General */
+"app.name" = "Felix Personal Hub";
+"welcome" = "Welcome";
+"save" = "Save";
+"cancel" = "Cancel";
+"close" = "Close";
+"add" = "Add";
+"delete" = "Delete";
+"edit" = "Edit";
+"done" = "Done";
+
+/* Onboarding */
+"onboarding.welcome.title" = "Welcome to Felix Personal Hub";
+"onboarding.welcome.description" = "Your all-in-one personal dashboard for IELTS, HSK, graduation tracking, health, workouts, and finance.";
+"onboarding.organized.title" = "Stay Organized";
+"onboarding.organized.description" = "Track your progress, set goals, and achieve your targets with personalized reminders and insights.";
+"onboarding.permissions.title" = "Enable Notifications";
+"onboarding.permissions.description" = "Get reminders for study sessions, sleep wind-down, and workouts to stay on track.";
+"onboarding.enable.notifications" = "Enable Notifications";
+"onboarding.notifications.enabled" = "Notifications Enabled";
+"onboarding.get.started" = "Get Started";
+
+/* Dashboard */
+"dashboard.title" = "Dashboard";
+"dashboard.ielts.progress" = "IELTS Progress";
+"dashboard.hsk.progress" = "HSK Progress";
+"dashboard.graduation" = "Graduation";
+"dashboard.sleep.recovery" = "Sleep Recovery";
+"dashboard.quick.actions" = "Quick Actions";
+"dashboard.log.sleep" = "Log Sleep";
+"dashboard.add.expense" = "Add Expense";
+"dashboard.start.study" = "Start Study";
+
+/* Study */
+"study.title" = "Study";
+"study.ielts" = "IELTS";
+"study.hsk" = "HSK";
+
+/* IELTS */
+"ielts.title" = "IELTS";
+"ielts.overall.progress" = "Overall Progress";
+"ielts.average" = "Average";
+"ielts.target" = "Target";
+"ielts.skills" = "Skills";
+"ielts.listening" = "Listening";
+"ielts.reading" = "Reading";
+"ielts.writing" = "Writing";
+"ielts.speaking" = "Speaking";
+"ielts.add.test.result" = "Add Test Result";
+"ielts.flashcards" = "Flashcards";
+"ielts.test.history" = "Test History";
+"ielts.no.tests" = "No tests recorded yet";
+
+/* HSK */
+"hsk.title" = "HSK";
+"hsk.vocabulary.progress" = "Vocabulary Progress";
+"hsk.known.words" = "Known Words";
+"hsk.target" = "Target";
+"hsk.daily.quiz" = "Daily Quiz";
+"hsk.flashcards" = "Flashcards";
+"hsk.recent.quizzes" = "Recent Quizzes";
+"hsk.no.quizzes" = "No quizzes completed yet";
+
+/* Flashcards */
+"flashcards.title" = "Flashcards";
+"flashcards.no.cards" = "No flashcards yet";
+"flashcards.create.first" = "Create First Card";
+"flashcards.study" = "Study";
+"flashcards.front" = "Front";
+"flashcards.back" = "Back";
+"flashcards.new.card" = "New Card";
+"flashcards.status.new" = "New";
+"flashcards.status.learning" = "Learning";
+"flashcards.status.known" = "Known";
+"flashcards.seen.times" = "Seen: %d times";
+"flashcards.show.answer" = "Show Answer";
+"flashcards.again" = "Again";
+"flashcards.learning" = "Learning";
+"flashcards.known" = "Known";
+"flashcards.study.complete" = "Study Session Complete!";
+
+/* Quiz */
+"quiz.title" = "Quiz";
+"quiz.question" = "Question %d of %d";
+"quiz.correct" = "Correct!";
+"quiz.incorrect" = "Incorrect";
+"quiz.answer" = "Answer: %@";
+"quiz.show.answer" = "Show Answer";
+"quiz.next.question" = "Next Question";
+"quiz.complete" = "Quiz Complete!";
+"quiz.correct.count" = "%d/%d correct";
+"quiz.percentage" = "%d%%";
+
+/* Settings */
+"settings.title" = "Settings";
+
+/* Health */
+"health.title" = "Health";
+
+/* Workout */
+"workout.title" = "Workout";
+
+/* Finance */
+"finance.title" = "Finance";
+
+/* Graduation */
+"graduation.title" = "Graduation";
+

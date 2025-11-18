@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22225" systemVersion="14.0" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="User" representedClassName="User" syncable="YES" codeGenerationType="class">
+        <attribute name="excludedDays" optional="YES" attributeType="String" defaultValueString="Thursday,Sunday"/>
+        <attribute name="id" optional="NO" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="locale" optional="YES" attributeType="String" defaultValueString="vi"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="studyFreeTimes" optional="YES" attributeType="String" defaultValueString="morning,evening"/>
+        <attribute name="ieltsTarget" optional="YES" attributeType="Double" defaultValueString="7.0"/>
+        <attribute name="hskLevel" optional="YES" attributeType="Integer 16" defaultValueString="4"/>
+        <attribute name="graduationDate" optional="YES" attributeType="Date"/>
+    </entity>
+    <entity name="IELTSTest" representedClassName="IELTSTest" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="NO" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="NO" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="listening" optional="YES" attributeType="Double" defaultValueString="0.0"/>
+        <attribute name="notes" optional="YES" attributeType="String"/>
+        <attribute name="reading" optional="YES" attributeType="Double" defaultValueString="0.0"/>
+        <attribute name="speaking" optional="YES" attributeType="Double" defaultValueString="0.0"/>
+        <attribute name="writing" optional="YES" attributeType="Double" defaultValueString="0.0"/>
+    </entity>
+    <entity name="Flashcard" representedClassName="Flashcard" syncable="YES" codeGenerationType="class">
+        <attribute name="back" optional="NO" attributeType="String"/>
+        <attribute name="front" optional="NO" attributeType="String"/>
+        <attribute name="id" optional="NO" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="knownCount" optional="YES" attributeType="Integer 32" defaultValueString="0"/>
+        <attribute name="lastSeen" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="module" optional="NO" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="String" defaultValueString="New"/>
+    </entity>
+    <entity name="HSKQuizResult" representedClassName="HSKQuizResult" syncable="YES" codeGenerationType="class">
+        <attribute name="correct" optional="NO" attributeType="Integer 32" defaultValueString="0"/>
+        <attribute name="date" optional="NO" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="NO" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="total" optional="NO" attributeType="Integer 32" defaultValueString="10"/>
+    </entity>
+    <entity name="Course" representedClassName="Course" syncable="YES" codeGenerationType="class">
+        <attribute name="completed" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="credits" optional="YES" attributeType="Integer 16" defaultValueString="0"/>
+        <attribute name="grade" optional="YES" attributeType="Double" defaultValueString="0.0"/>
+        <attribute name="id" optional="NO" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="name" optional="NO" attributeType="String"/>
+    </entity>
+    <entity name="SleepLog" representedClassName="SleepLog" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="NO" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="end" optional="NO" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="NO" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="recoveryScore" optional="YES" attributeType="Double" defaultValueString="0.0"/>
+        <attribute name="start" optional="NO" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="NightStudySession" representedClassName="NightStudySession" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="NO" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="end" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="focusedMinutes" optional="YES" attributeType="Integer 32" defaultValueString="0"/>
+        <attribute name="id" optional="NO" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="pomodoros" optional="YES" attributeType="Integer 32" defaultValueString="0"/>
+        <attribute name="start" optional="NO" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="WorkoutSession" representedClassName="WorkoutSession" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="NO" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="distance" optional="YES" attributeType="Double" defaultValueString="0.0"/>
+        <attribute name="duration" optional="YES" attributeType="Integer 32" defaultValueString="0"/>
+        <attribute name="id" optional="NO" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="notes" optional="YES" attributeType="String"/>
+        <attribute name="reps" optional="YES" attributeType="Integer 32" defaultValueString="0"/>
+        <attribute name="type" optional="NO" attributeType="String"/>
+    </entity>
+    <entity name="Expense" representedClassName="Expense" syncable="YES" codeGenerationType="class">
+        <attribute name="amount" optional="NO" attributeType="Double" defaultValueString="0.0"/>
+        <attribute name="category" optional="NO" attributeType="String"/>
+        <attribute name="date" optional="NO" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="NO" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="note" optional="YES" attributeType="String"/>
+    </entity>
+</model>
+

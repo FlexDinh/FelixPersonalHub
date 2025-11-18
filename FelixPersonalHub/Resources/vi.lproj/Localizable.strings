@@ -1,0 +1,110 @@
+/* Vietnamese Localization */
+
+/* General */
+"app.name" = "Felix Personal Hub";
+"welcome" = "Chào mừng";
+"save" = "Lưu";
+"cancel" = "Hủy";
+"close" = "Đóng";
+"add" = "Thêm";
+"delete" = "Xóa";
+"edit" = "Sửa";
+"done" = "Xong";
+
+/* Onboarding */
+"onboarding.welcome.title" = "Chào mừng đến với Felix Personal Hub";
+"onboarding.welcome.description" = "Bảng điều khiển tổng hợp cho IELTS, HSK, theo dõi tốt nghiệp, sức khỏe, tập luyện và tài chính.";
+"onboarding.organized.title" = "Luôn Tổ Chức";
+"onboarding.organized.description" = "Theo dõi tiến độ, đặt mục tiêu và đạt được mục tiêu của bạn với nhắc nhở và thông tin chi tiết được cá nhân hóa.";
+"onboarding.permissions.title" = "Bật Thông Báo";
+"onboarding.permissions.description" = "Nhận nhắc nhở cho buổi học, thời gian nghỉ ngơi và tập luyện để luôn đi đúng hướng.";
+"onboarding.enable.notifications" = "Bật Thông Báo";
+"onboarding.notifications.enabled" = "Thông Báo Đã Bật";
+"onboarding.get.started" = "Bắt Đầu";
+
+/* Dashboard */
+"dashboard.title" = "Bảng Điều Khiển";
+"dashboard.ielts.progress" = "Tiến Độ IELTS";
+"dashboard.hsk.progress" = "Tiến Độ HSK";
+"dashboard.graduation" = "Tốt Nghiệp";
+"dashboard.sleep.recovery" = "Phục Hồi Giấc Ngủ";
+"dashboard.quick.actions" = "Thao Tác Nhanh";
+"dashboard.log.sleep" = "Ghi Nhận Giấc Ngủ";
+"dashboard.add.expense" = "Thêm Chi Tiêu";
+"dashboard.start.study" = "Bắt Đầu Học";
+
+/* Study */
+"study.title" = "Học Tập";
+"study.ielts" = "IELTS";
+"study.hsk" = "HSK";
+
+/* IELTS */
+"ielts.title" = "IELTS";
+"ielts.overall.progress" = "Tiến Độ Tổng Thể";
+"ielts.average" = "Trung Bình";
+"ielts.target" = "Mục Tiêu";
+"ielts.skills" = "Kỹ Năng";
+"ielts.listening" = "Nghe";
+"ielts.reading" = "Đọc";
+"ielts.writing" = "Viết";
+"ielts.speaking" = "Nói";
+"ielts.add.test.result" = "Thêm Kết Quả Thi";
+"ielts.flashcards" = "Thẻ Ghi Nhớ";
+"ielts.test.history" = "Lịch Sử Thi";
+"ielts.no.tests" = "Chưa có bài thi nào được ghi nhận";
+
+/* HSK */
+"hsk.title" = "HSK";
+"hsk.vocabulary.progress" = "Tiến Độ Từ Vựng";
+"hsk.known.words" = "Từ Đã Biết";
+"hsk.target" = "Mục Tiêu";
+"hsk.daily.quiz" = "Câu Hỏi Hàng Ngày";
+"hsk.flashcards" = "Thẻ Ghi Nhớ";
+"hsk.recent.quizzes" = "Câu Hỏi Gần Đây";
+"hsk.no.quizzes" = "Chưa hoàn thành câu hỏi nào";
+
+/* Flashcards */
+"flashcards.title" = "Thẻ Ghi Nhớ";
+"flashcards.no.cards" = "Chưa có thẻ nào";
+"flashcards.create.first" = "Tạo Thẻ Đầu Tiên";
+"flashcards.study" = "Học";
+"flashcards.front" = "Mặt Trước";
+"flashcards.back" = "Mặt Sau";
+"flashcards.new.card" = "Thẻ Mới";
+"flashcards.status.new" = "Mới";
+"flashcards.status.learning" = "Đang Học";
+"flashcards.status.known" = "Đã Biết";
+"flashcards.seen.times" = "Đã xem: %d lần";
+"flashcards.show.answer" = "Hiển Thị Câu Trả Lời";
+"flashcards.again" = "Lại";
+"flashcards.learning" = "Đang Học";
+"flashcards.known" = "Đã Biết";
+"flashcards.study.complete" = "Hoàn Thành Buổi Học!";
+
+/* Quiz */
+"quiz.title" = "Câu Hỏi";
+"quiz.question" = "Câu Hỏi %d / %d";
+"quiz.correct" = "Đúng!";
+"quiz.incorrect" = "Sai";
+"quiz.answer" = "Câu Trả Lời: %@";
+"quiz.show.answer" = "Hiển Thị Câu Trả Lời";
+"quiz.next.question" = "Câu Hỏi Tiếp Theo";
+"quiz.complete" = "Hoàn Thành Câu Hỏi!";
+"quiz.correct.count" = "%d/%d đúng";
+"quiz.percentage" = "%d%%";
+
+/* Settings */
+"settings.title" = "Cài Đặt";
+
+/* Health */
+"health.title" = "Sức Khỏe";
+
+/* Workout */
+"workout.title" = "Tập Luyện";
+
+/* Finance */
+"finance.title" = "Tài Chính";
+
+/* Graduation */
+"graduation.title" = "Tốt Nghiệp";
+
