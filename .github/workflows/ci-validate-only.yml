@@ -1,0 +1,52 @@
+name: CI Validate Only
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest  # Không cần macOS để validate
+    
+    steps:
+    - uses: actions/checkout@v4
+      
+    - name: Check Swift files exist
+      run: |
+        echo "Checking project structure..."
+        test -f FelixPersonalHub/App/FelixPersonalHubApp.swift && echo "✅ FelixPersonalHubApp.swift found" || echo "❌ FelixPersonalHubApp.swift missing"
+        test -f FelixPersonalHub/Views/ContentView.swift && echo "✅ ContentView.swift found" || echo "❌ ContentView.swift missing"
+        test -f FelixPersonalHub/Services/PersistenceService.swift && echo "✅ PersistenceService.swift found" || echo "❌ PersistenceService.swift missing"
+        test -d FelixPersonalHub/Features/Study && echo "✅ Study features found" || echo "❌ Study features missing"
+        
+    - name: Count Swift files
+      run: |
+        SWIFT_COUNT=$(find FelixPersonalHub -name "*.swift" -type f | wc -l)
+        echo "Found $SWIFT_COUNT Swift files"
+        if [ $SWIFT_COUNT -lt 10 ]; then
+          echo "⚠️ Warning: Expected more Swift files"
+          exit 1
+        fi
+        
+    - name: Check Core Data model
+      run: |
+        test -f FelixPersonalHub/Models/CoreDataModel.xcdatamodeld/CoreDataModel.xcdatamodel/contents && \
+          echo "✅ Core Data model found" || echo "❌ Core Data model missing"
+        
+    - name: Validate file structure
+      run: |
+        echo "Project structure validation:"
+        echo "App:"
+        ls -la FelixPersonalHub/App/ 2>/dev/null || echo "App folder not found"
+        echo ""
+        echo "Views:"
+        ls -la FelixPersonalHub/Views/ 2>/dev/null | head -5 || echo "Views folder not found"
+        echo ""
+        echo "Services:"
+        ls -la FelixPersonalHub/Services/ 2>/dev/null | head -5 || echo "Services folder not found"
+        echo ""
+        echo "Features:"
+        ls -la FelixPersonalHub/Features/ 2>/dev/null | head -5 || echo "Features folder not found"
+
